@@ -6,7 +6,12 @@ COPY Gemfile* /usr/src/app/
 
 WORKDIR /usr/src/app
 
-RUN apk add --update build-base sqlite-dev nodejs tzdata && bundle install
+RUN apk add --update \
+  build-base \
+  sqlite-dev \
+  nodejs \
+  tzdata \
+  && bundle install
 
 COPY . /usr/src/app/
 
