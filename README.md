@@ -1,4 +1,4 @@
-# Barebones Rails Alpine Docker Image
+# Barebones Alpine Docker Image for Rails
 
 ## Requirements
 - Rails project that uses Ruby 2.6
